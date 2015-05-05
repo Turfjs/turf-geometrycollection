@@ -1,0 +1,32 @@
+{
+  "name": "turf-geometrycollection",
+  "version": "1.0.0",
+  "description": "turf geometrycollection module",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js",
+    "doc": "dox -r < index.js | doxme --readme > README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Turfjs/turf-geometrycollection.git"
+  },
+  "keywords": [
+    "geo",
+    "gis",
+    "geometrycollection",
+    "turf",
+    "geojson"
+  ],
+  "author": "morganherlocker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Turfjs/turf-geometrycollection/issues"
+  },
+  "homepage": "https://github.com/Turfjs/turf-geometrycollection",
+  "devDependencies": {
+    "dox": "^0.7.1",
+    "doxme": "^1.8.2",
+    "tape": "^4.0.0"
+  }
+}
